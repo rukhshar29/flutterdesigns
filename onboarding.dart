@@ -87,26 +87,7 @@ class _OnboardingState extends State<Onboarding> {
                   ),
                   const SizedBox(
                     height: 40.0,
-                    // width: 380.0,
-                    // child: AnimatedOpacity(
-                    //   duration: Duration(milliseconds: 300),
-                    //   opacity: _currentpage == _numpages - 1 ? 1.0 : 0.5,
-                    //   child: ElevatedButton(
-                    //                           style: ElevatedButton.styleFrom(
-                    //       backgroundColor: Colors.lightBlue,elevation: 10,
-                    //       shape: RoundedRectangleBorder(
-                    //         borderRadius: BorderRadius.circular(10),
-                    //       )
-                    //     ),
-                    //     onPressed: () {
-                          // Navigator.pushNamed(context, 'second');
-                    //     },
-                    //     child: Text('Login',style:TextStyle(
-                    //       fontStyle: FontStyle.italic,fontSize: 25,fontWeight: FontWeight.bold,
-                    //       color: Colors.white,
-                    //     ) ,),
-                    //   ),
-                    // ),
+                   
                   ),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 15),
