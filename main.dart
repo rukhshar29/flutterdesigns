@@ -1,84 +1,13 @@
-import 'package:demo/Crudoperation.dart';
-import 'package:demo/alertbox.dart';
-import 'package:demo/animatedalign.dart';
-import 'package:demo/animatedbuilder.dart';
-import 'package:demo/animatedcontainer.dart';
-import 'package:demo/animateddefaulttextstyle.dart';
-import 'package:demo/animatedicon.dart';
-import 'package:demo/animatedlist.dart';
-import 'package:demo/animatedmodelbarrier.dart';
-import 'package:demo/animatedpadding.dart';
-import 'package:demo/animatedphysical.dart';
-import 'package:demo/animatedposition.dart';
-import 'package:demo/animatedrotation.dart';
-import 'package:demo/animatedsize.dart';
-import 'package:demo/animatedswitcher.dart';
-import 'package:demo/animation1.dart';
-import 'package:demo/animation2.dart';
-import 'package:demo/animation3.dart';
-import 'package:demo/animation4.dart';
-import 'package:demo/animationcrossfade.dart';
-import 'package:demo/animationopacity.dart';
-import 'package:demo/animationripped.dart';
-import 'package:demo/animationtwe.dart';
-import 'package:demo/astroapp/drawer.dart';
-import 'package:demo/astroapp/newchat.dart';
-import 'package:demo/astroapp/newsave.dart';
-import 'package:demo/astroapp/wellcome.dart';
-import 'package:demo/button.dart';
-import 'package:demo/cakiweb/inserted.dart';
-import 'package:demo/cakiweb/register.dart';
-import 'package:demo/callingapi.dart';
-import 'package:demo/callingapi2.dart';
-import 'package:demo/circleavatar.dart';
-import 'package:demo/crudoperation1.dart';
-import 'package:demo/crudoperationhome.dart';
-import 'package:demo/emailpasswordfire.dart';
-//import 'package:demo/firebase.dart';
-import 'package:demo/firebase_options.dart';
-import 'package:demo/getxsnackbar.dart';
-import 'package:demo/home.dart';
-import 'package:demo/image.dart';
-import 'package:demo/listview1.dart';
-import 'package:demo/listviewbuilder.dart';
-import 'package:demo/loader.dart';
-import 'package:demo/login.dart';
-import 'package:demo/myproject/listviewbuilder.dart';
-import 'package:demo/navigator.dart';
-import 'package:demo/noteapp.dart';
-import 'package:demo/noteappscreen.dart';
+
+
+
 import 'package:demo/onboarding.dart';
-import 'package:demo/popupscreen.dart';
-import 'package:demo/project2/loginpage.dart';
-import 'package:demo/response.dart';
-import 'package:demo/routeget.dart';
-import 'package:demo/sharedhome.dart';
-import 'package:demo/sharedpref.dart';
-import 'package:demo/skyzone/feedback.dart';
 
-import 'package:demo/skyzone/profilescreenn.dart';
-import 'package:demo/smgetx.dart';
-import 'package:demo/splashscreen.dart';
-import 'package:demo/stack1.dart';
-import 'package:demo/stack2.dart';
-import 'package:demo/stopwatch.dart';
-import 'package:demo/stream.dart';
-import 'package:demo/tarun.dart';
-import 'package:demo/tictac.dart';
-import 'package:demo/validation.dart';
-import 'package:firebase_core/firebase_core.dart';
-
-// import 'package:demo/home.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 
 
 void main() {
-//    WidgetsFlutterBinding.ensureInitialized();
-//  await Firebase.initializeApp(
-//      options: DefaultFirebaseOptions.currentPlatform,
-//  );
+
   runApp( MyApp());
 }
 
@@ -92,26 +21,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: 'first',
       routes: {
-        //  'first':(context) => Onboarding(),
-        //   'second':(context) => HomePage(),
-        //'second':(context) => EditScreenn(),
-        //'second':(context) => EditScreenn(),
-       // 'first':(context) => HomePagee(),
-        //'second':(context) => EditScreenn(),
-        'first':(context) => TarunScreen(),
-        'second':(context) =>Secondscreen(),
-        'third' :(context) =>  Thirdscreen(),
-        'fourth':(context) =>  Fourthscreen(),
-        'fifth':(context) => EndScreen(),
-
-        
-
-        //'first':(context) => Popups(),
-        //'second':(context) => GETApp(),
-       //'first' :(context) =>  Onboarding(),
-        //'second':(context) =>  HomePage(),
-        
        
+
        
 
         
@@ -138,7 +49,7 @@ class MyApp extends StatelessWidget {
       //   useMaterial3: true,
       // ),
    
- //home:StopWatch(),
+ home:Onbording(),
 
 
 
